@@ -1,0 +1,148 @@
+@font-face {
+    font-family: bob;
+    src: url(Spongeboy\ Me\ Bob.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+
+    background: url('https://i.pinimg.com/originals/bd/fc/51/bdfc514f1c16f7cae44f748b6580d6f4.gif');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    font-family: bob;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+
+    display: flex;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 2%;
+    font-family: bob;
+    align-content: space-around;
+    position: absolute;
+    justify-content: center;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    
+    
+    
+    
+
+}
+
+section {
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+.data {
+
+    font-size: 1.900rem;
+    width: 50%;
+    padding: 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .6402rem;
+    background: transparent;
+    box-shadow: 0 8px 10px #000000;
+    margin-top: 20%;
+    
+    
+   
+
+}
+
+.data div {
+
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+    
+    
+}
+
+.relogio {
+
+    width: 70%;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .6402rem;
+    background: transparent;
+    box-shadow: 0 8px 10px #000000;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+
+
+}
+
+.relogio div {
+
+    box-shadow: 0 8px 10px #00000080(255, 0, 0, 0.9);
+    color: #ffffff;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.404);
+
+}
+
+.relogio span {
+    font-size: 4rem;
+}
+
+.relogio span.tempo {
+    font-size: 1rem;
+}
+
+.r1 {
+
+    background: url('https://i.gifer.com/origin/2d/2d3e2442267212194c6e9549fb94d32d_w200.gif') no-repeat;
+    background-position: center;
+}
+
+.r2 {
+
+    background: url('https://i.gifer.com/origin/fe/fe96de5cbe4268d0ca00a941b4c965dd_w200.gif') no-repeat;
+    background-position: center;
+}
+
+.r3 {
+
+    background: url('https://i.pinimg.com/originals/be/58/b0/be58b061b8093f4d7063dda86b5fe4bb.gif') no-repeat;
+    background-position: center;
+}
